@@ -52,12 +52,10 @@
     <br>Cena za sztuke: <c:out value="${item.price}"/>
     <br>Sztuk: <c:out value="${item.quantity}"/>
     <br>
-    <form action="shop.jsp" method="post">
-      <input type="submit" value="usun z koszyka">
-      <input type="hidden" name="removeItemID" value="<c:out value="${item.id}"/>">
-    </form>
-    <br>
   </c:forEach>
+
+  <br>
+  <br><a href="cart.jsp">KOSZYK</a>
 
   </body>
 </html>
