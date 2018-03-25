@@ -1,0 +1,19 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<computer_parts>
+    <part ID="1">
+        <name>Monitor LCD</name>
+        <price>450</price>
+    </part>
+    <part ID="2">
+        <name>GTX 1080 Ti</name>
+        <price>3500</price>
+    </part>
+    <part ID="3">
+        <name>i7 4790K</name>
+        <price>1500</price>
+    </part>
+    <part ID="4">
+        <name>RAM 16GB G.Skill Trident X</name>
+        <price>700</price>
+    </part>
+</computer_parts>
