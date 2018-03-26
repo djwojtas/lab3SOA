@@ -20,9 +20,6 @@
               1
       ));
     }
-    if(request.getParameter("removeItemID") != null) {
-      cart.removeItem(request.getParameter("removeItemID"));
-    }
   %>
 
   <c:import var="itemsXML" url="items.xml"/>
