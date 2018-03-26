@@ -31,7 +31,7 @@
             <td>${movie.title}</td>
             <c:choose>
                 <c:when test="${movie.type == 'wojenny'}">
-                    <td bgcolor="#FF0000">${movie.type}</td>
+                    <td bgcolor="red">${movie.type}</td>
                 </c:when>
                 <c:otherwise>
                     <td>${movie.type}</td>

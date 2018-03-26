@@ -31,7 +31,7 @@
       </c:choose>
     </c:if>
 
-    <form action="index.jsp" method="get">
+    <form action="index.jsp" method="post">
       <input type="hidden" name="tries" value="${tries}">
       <input type="hidden" name="rand" value="${rand}">
       <input type="text" name="guess"> <br>
